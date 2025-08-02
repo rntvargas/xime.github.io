@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ximena - De Ren</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💖</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <div class="background-animation">
+            <div class="floating-elements">
+                <span class="float-item">💖</span>
+                <span class="float-item">✨</span>
+                <span class="float-item">🌸</span>
+                <span class="float-item">💫</span>
+                <span class="float-item">🦋</span>
+                <span class="float-item">🌺</span>
+                <span class="float-item">🌟</span>
+                <span class="float-item">💝</span>
+                <span class="float-item">🎀</span>
+                <span class="float-item">🌈</span>
+            </div>
+            <div class="sparkles"></div>
+        </div>
+        
+        <header class="header">
+            <div class="names-display">
+                <span class="from-name">De: Ren</span>
+                <span class="heart-separator">💕</span>
+                <span class="to-name">Para: Xime</span>
+            </div>
+        </header>
+        
+        <main class="content">
+            <div class="date-display">
+                <div class="date-card">
+                    <span class="day">1</span>
+                    <span class="month">Agosto</span>
+                    <span class="year">2025</span>
+                </div>
+            </div>
+            
+            <div class="message-container">
+                <h1 class="main-message">
+                    <span class="highlight">Hoy es primero de agosto</span>
+                    <span class="celebration">¡Feliz día Ximena!</span>
+                </h1>
+                
+                <div class="special-message">
+                    <div class="message-bubble">
+                        <p class="friendship-text">
+                            "No eres mi novia, pero no serás espectadora"
+                        </p>
+                        <div class="message-signature">- Ren 💫</div>
+                    </div>
+                </div>
+                
+                <div class="interactive-elements">
+                    <button class="celebration-btn" onclick="celebrar()">
+                        <span class="btn-icon">🎉</span>
+                        <span class="btn-text">¡Celebrar!</span>
+                    </button>
+                    <button class="music-btn" onclick="toggleMusic()">
+                        <span class="btn-icon">🎵</span>
+                        <span class="btn-text">Música</span>
+                    </button>
+                    <button class="surprise-btn" onclick="sorpresa()">
+                        <span class="btn-icon">🎁</span>
+                        <span class="btn-text">Sorpresa</span>
+                    </button>
+                </div>
+                
+                <div class="friendship-meter">
+                    <div class="meter-label">Nivel de Amistad</div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" id="friendshipMeter"></div>
+                    </div>
+                    <div class="meter-text">¡Infinito! ∞</div>
+                </div>
+                
+                <div class="music-player" id="musicPlayer">
+                    <div class="music-header">
+                        <h3>🎵 Música Especial para Ximena</h3>
+                        <p>Una canción elegida especialmente por Ren</p>
+                    </div>
+                    <div class="tiktok-container">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@musica2.0live/video/7312639174513806597" data-video-id="7312639174513806597" style="max-width: 605px;min-width: 325px;" > 
+                            <section> 
+                                <a target="_blank" title="@musica2.0live" href="https://www.tiktok.com/@musica2.0live?refer=embed">@musica2.0live</a> 
+                                <a title="umbrella" target="_blank" href="https://www.tiktok.com/tag/umbrella?refer=embed">#umbrella</a>
+                                <a title="coverenespañol" target="_blank" href="https://www.tiktok.com/tag/coverenespa%C3%B1ol?refer=embed">#coverenespañol</a>
+                                <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#Viral</a>
+                                <a title="fyl" target="_blank" href="https://www.tiktok.com/tag/fyl?refer=embed">#fyl</a> 
+                                <a target="_blank" title="♬ Rihanna Umbrella - Sᴛᴜɴɴɪɴɢ Mᴜsɪᴄ" href="https://www.tiktok.com/music/Rihanna-Umbrella-6892173866794306306?refer=embed">♬ Rihanna Umbrella - Sᴛᴜɴɴɪɴɢ Mᴜsɪᴄ</a> 
+                            </section> 
+                        </blockquote>
+                    </div>
+                    <div class="music-controls">
+                        <button class="music-toggle-btn" onclick="toggleTikTokPlayer()">
+                            <span class="music-icon">🎵</span>
+                            <span class="music-text">Mostrar/Ocultar Música</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="friendship-quotes">
+                <div class="quote active">
+                    "Ximena, tu amistad ilumina cada día como el sol de agosto"
+                </div>
+                <div class="quote">
+                    "No necesitas ser mi novia para ser la persona más especial"
+                </div>
+                <div class="quote">
+                    "Contigo, Ximena, cada momento es una celebración"
+                </div>
+                <div class="quote">
+                    "La amistad verdadera no conoce límites ni etiquetas"
+                </div>
+                <div class="quote">
+                    "Ren y Ximena: una amistad que trasciende todo"
+                </div>
+            </div>
+            
+            <div class="memory-gallery">
+                <div class="gallery-title">Momentos Especiales</div>
+                <div class="memory-cards">
+                    <div class="memory-card" onclick="showMemory(1)">
+                        <div class="memory-icon">📸</div>
+                        <div class="memory-text">Recuerdos</div>
+                    </div>
+                    <div class="memory-card" onclick="showMemory(2)">
+                        <div class="memory-icon">🎈</div>
+                        <div class="memory-text">Aventuras</div>
+                    </div>
+                    <div class="memory-card" onclick="showMemory(3)">
+                        <div class="memory-icon">⭐</div>
+                        <div class="memory-text">Sueños</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-message">Con todo el cariño del mundo</p>
+                <p class="footer-signature">💝 Ren para Ximena 💝</p>
+                <p class="footer-date">1 de Agosto, 2025</p>
+            </div>
+        </footer>
+    </div>
+    
+    <div class="modal" id="memoryModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+</html>
+
