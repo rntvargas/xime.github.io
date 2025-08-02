@@ -22,6 +22,5 @@ Esta es una página web personalizada y mejorada, creada con mucho cariño por R
 *   **S**: Activa una sorpresa aleatoria.
 *   **Escape**: Cierra cualquier modal abierto (como los de "Recuerdos").
 
-¡Espero que Ximena disfrute mucho esta página especial! 😊
 
 
