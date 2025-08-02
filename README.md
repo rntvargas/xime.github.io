@@ -14,31 +14,6 @@ Esta es una página web personalizada y mejorada, creada con mucho cariño por R
 📊 **Medidor de Amistad:** Una barra animada que siempre muestra "¡Infinito! ∞".
 🎭 **Galería de Momentos:** Secciones interactivas para "Recuerdos", "Aventuras" y "Sueños" con modales personalizados.
 
-## Cómo Usar (y Subir a GitHub Pages):
-
-Esta página está diseñada para ser fácilmente desplegada en GitHub Pages. Sigue estos pasos:
-
-1.  **Descarga el Proyecto:** Asegúrate de tener todos los archivos (`index.html`, `styles.css`, `script.js`, `README.md`).
-
-2.  **Crea un Repositorio en GitHub:**
-    *   Ve a [GitHub](https://github.com/) e inicia sesión.
-    *   Haz clic en el botón "New" para crear un nuevo repositorio.
-    *   Nombra tu repositorio como `tu-nombre-de-usuario.github.io` (reemplaza `tu-nombre-de-usuario` con tu nombre de usuario de GitHub). Por ejemplo, si tu usuario es `ren-dev`, el repositorio se llamaría `ren-dev.github.io`.
-    *   Asegúrate de que sea un repositorio **público**.
-    *   Haz clic en "Create repository".
-
-3.  **Sube los Archivos:**
-    *   Clona el repositorio a tu máquina local o sube los archivos directamente a través de la interfaz web de GitHub.
-    *   Asegúrate de que `index.html`, `styles.css`, `script.js` y `README.md` estén en la **raíz** de tu repositorio.
-
-4.  **Activa GitHub Pages:**
-    *   Una vez que los archivos estén subidos, ve a la pestaña "Settings" (Configuración) de tu repositorio.
-    *   En el menú lateral izquierdo, haz clic en "Pages".
-    *   En la sección "Build and deployment", asegúrate de que "Source" esté configurado en "Deploy from a branch" y que la rama sea `main` (o `master`) y la carpeta sea `/ (root)`.
-    *   Haz clic en "Save".
-
-5.  **¡Visita tu Página!**
-    *   Después de unos minutos (puede tardar un poco en desplegarse), tu página estará disponible en `https://tu-nombre-de-usuario.github.io`.
 
 ## Controles de Teclado:
 
